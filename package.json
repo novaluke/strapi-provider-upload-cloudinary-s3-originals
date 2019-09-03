@@ -1,0 +1,36 @@
+{
+  "name": "strapi-provider-upload-cloudinary-s3-originals",
+  "version": "0.0.1",
+  "description": "Provider for Strapi upload; original files saved to S3, resized files (to pass Cloudinary max file size) sent to Cloudinary",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "cloudinary": "^1.14.0",
+    "into-stream": "^5.1.0",
+    "sharp": "^0.23.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "luke@webuildlegends.com",
+    "name": "Luke Mayhew",
+    "url": "https://webuildlegends.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mayhewluke/strapi-provider-upload-cloudinary-s3-originals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayhewluke/strapi-provider-upload-cloudinary-s3-originals/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
